@@ -1,5 +1,5 @@
 import findspark
-findspark.init("C:\Program Files\spark\spark-3.3.2-bin-hadoop2")
+findspark.init()
 
 from pyspark.sql import SparkSession
 from pyspark.sql.window import Window
